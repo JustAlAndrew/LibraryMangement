@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fbfbfb;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  background: #d79b19;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(226, 149, 33);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+.form-group {
+  display: flex;            
+  flex-direction: column;   
+  align-items: center;      
+  margin-bottom: 15px;
+}
+
+.form-group:last-of-type {
+  margin-bottom: 30px;
+   
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group select{
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #e4e2e2;
+  border-radius: 4px;
+  background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Register Button */
+.btn {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;               
+  align-items: center; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.memberType {
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #030303;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; 
+  display: block; 
+}

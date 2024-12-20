@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEP Library Time-In</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Left section -->
+        <div class="left-placeholder">
+            <!-- Add content if needed -->
+        </div>
+
+        <!-- Form Section -->
+        <div class="form-section">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="fullname">FULL NAME</label>
+                    <input type="text" id="fullname" placeholder="Enter full name">
+                </div>
+                <div class="form-group">
+                    <label for="year-course">YEAR & COURSE</label>
+                    <input type="text" id="year-course" placeholder="Enter year and course">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group full-width">
+                    <label for="student-id">STUDENT ID</label>
+                    <input type="text" id="student-id" placeholder="Enter student ID">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group full-width">
+                    <label for="library-card">Library Card Number</label>
+                    <input type="text" id="library-card" placeholder="Enter library card number">
+                </div>
+            </div>
+            <button class="time-in-btn">TIME IN</button>
+        </div>
+
+        <!-- Clock Section -->
+        <div class="clock-section">
+            <div class="clock">
+                <p id="time">9:31 AM</p>
+                <p id="date">Mon, 2 Dec 2024</p>
+            </div>
+        </div>
+    </main>
+    <script src="time-date.js" defer></script>
+
+</body>
+</html>
